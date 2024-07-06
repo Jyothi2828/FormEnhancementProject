@@ -1,0 +1,51 @@
+/* Set the font family and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ededed; /* Light blue aesthetic color */
+}
+/* Style the form container */
+.form-container {
+    width: 380px; /* Set the width of the form container */
+    margin: 80px auto; /* Center the form vertically and horizontally */
+    padding: 20px; /* Add some padding inside the form container */
+    background: #f3f3f3; /* Set the background color of the form container */
+    border-radius: 8px; /* Add a rounded corner effect */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add a subtle shadow effect */
+}
+/* Style the h1 heading */
+h1 {
+    text-align: center; /* Center the heading text */
+    color: #000000; /* Match the button color */
+}
+/* Style the label elements */
+label {
+    display: block; /* Make the label elements block-level */
+    margin-top: 10px; /* Add some margin above each label */
+    font-weight: bold; /* Make the label text bold */
+    color: #333; /* Set the label text color */
+}
+/* Style the input fields */
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Make the input fields full-width */
+    padding: 8px; /* Add some padding inside the input fields */
+    margin-top: 5px; /* Add some margin above each input field */
+    margin-bottom: 10px; /* Add some margin below each input field */
+    border: 1px solid #ccc; /* Add a border around each input field */
+    border-radius: 4px; /* Add a rounded corner effect */
+}
+/* Style the button */
+button {
+    width: 100%; /* Make the button full-width */
+    padding: 10px; /* Add some padding inside the button */
+    background-color: #0073ff; /* Set the button background color */
+    color: #fff; /* Set the button text color */
+    border: none; /* Remove the button border */
+    border-radius: 4px; /* Add a rounded corner effect */
+    cursor: pointer; /* Change the cursor shape to a pointing hand */
+    font-weight: bold; /* Make the button text bold */
+}
+/* Style the button on hover */
+button:hover {
+    background-color: #0056b3; /* Change the button background color on hover */
+}
